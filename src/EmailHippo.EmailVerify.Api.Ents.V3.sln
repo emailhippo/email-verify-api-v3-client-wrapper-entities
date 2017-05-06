@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{B919CF2D-3F22-4D48-8F52-23D44F139686}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DE9FD658-1EF7-4ACA-9B9E-20119C1459D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailHippo.EmailVerify.Api.V3.Entities", "Components\EmailHippo.EmailVerify.Api.V3.Entities\EmailHippo.EmailVerify.Api.V3.Entities.csproj", "{BE290441-7ABE-4451-AD50-9693807CAD5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailHippo.EmailVerify.Api.V3.Entities.Tests", "Tests\EmailHippo.EmailVerify.Api.V3.Entities.Tests\EmailHippo.EmailVerify.Api.V3.Entities.Tests.csproj", "{3013CD0A-6649-4F9C-AF09-0509FA3A8484}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE290441-7ABE-4451-AD50-9693807CAD5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE290441-7ABE-4451-AD50-9693807CAD5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE290441-7ABE-4451-AD50-9693807CAD5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE290441-7ABE-4451-AD50-9693807CAD5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3013CD0A-6649-4F9C-AF09-0509FA3A8484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3013CD0A-6649-4F9C-AF09-0509FA3A8484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3013CD0A-6649-4F9C-AF09-0509FA3A8484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3013CD0A-6649-4F9C-AF09-0509FA3A8484}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE290441-7ABE-4451-AD50-9693807CAD5D} = {B919CF2D-3F22-4D48-8F52-23D44F139686}
+		{3013CD0A-6649-4F9C-AF09-0509FA3A8484} = {DE9FD658-1EF7-4ACA-9B9E-20119C1459D0}
+	EndGlobalSection
+EndGlobal
