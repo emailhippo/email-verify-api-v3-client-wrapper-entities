@@ -38,7 +38,7 @@ Find out more about enterprise grade email address validation and get a free tri
   <ItemGroup>
     <PackageReference Include="JetBrains.Annotations" Version="10.4.0" />
     <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
-    <PackageReference Include="protobuf-net" Version="2.1.0" />
+    <PackageReference Include="protobuf-net" Version="2.2.0" />
     <PackageReference Include="stylecop.analyzers" Version="1.0.0" />
     <PackageReference Include="System.Diagnostics.Contracts" Version="4.3.0" />
   </ItemGroup>
