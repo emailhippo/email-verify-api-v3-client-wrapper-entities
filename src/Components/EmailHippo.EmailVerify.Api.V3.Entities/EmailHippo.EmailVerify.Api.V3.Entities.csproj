@@ -14,7 +14,7 @@
     <Company>EmailHippo</Company>
     <Product>EmailVerifification API (v3)</Product>
     <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
-    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated to remove StyleCop.Analyzers.</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <Description>Version 3 client library package for email verification service entities powered by emailhippo.com.
 
@@ -39,7 +39,9 @@ Find out more about enterprise grade email address validation and get a free tri
     <PackageReference Include="JetBrains.Annotations" Version="10.4.0" />
     <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
     <PackageReference Include="protobuf-net" Version="2.2.0" />
-    <PackageReference Include="stylecop.analyzers" Version="1.0.0" />
+    <PackageReference Include="stylecop.analyzers" Version="1.0.0">
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="System.Diagnostics.Contracts" Version="4.3.0" />
   </ItemGroup>
   

@@ -34,8 +34,14 @@ namespace EmailHippo.EmailVerify.Api.V3.Entities.Tests.Unit.V_3_0_0
     using Entities.V_3_0_0.Trust;
     using Entities.V_3_0_0.VersionInfo;
 
+    /// <summary>
+    /// Test data.
+    /// </summary>
     public static class TestData
     {
+        /// <summary>
+        /// Full Result
+        /// </summary>
         public static Result FullResult
         {
             get
