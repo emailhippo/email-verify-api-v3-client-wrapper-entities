@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.4</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <NeutralLanguage></NeutralLanguage>
     <PackageProjectUrl>https://github.com/emailhippo/email-verify-api-v3-client-wrapper</PackageProjectUrl>
@@ -14,7 +14,7 @@
     <Company>EmailHippo</Company>
     <Product>EmailVerifification API (v3)</Product>
     <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
-    <PackageReleaseNotes>Updated to remove StyleCop.Analyzers.</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated to .net Standard 2.0.</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <Description>Version 3 client library package for email verification service entities powered by emailhippo.com.
 
@@ -36,10 +36,10 @@ Find out more about enterprise grade email address validation and get a free tri
   </ItemGroup>
   
   <ItemGroup>
-    <PackageReference Include="JetBrains.Annotations" Version="10.4.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
-    <PackageReference Include="protobuf-net" Version="2.2.0" />
-    <PackageReference Include="stylecop.analyzers" Version="1.0.0">
+    <PackageReference Include="JetBrains.Annotations" Version="11.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="protobuf-net" Version="2.3.2" />
+    <PackageReference Include="stylecop.analyzers" Version="1.0.2">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
     <PackageReference Include="System.Diagnostics.Contracts" Version="4.3.0" />
