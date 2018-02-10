@@ -6,7 +6,7 @@
     <NeutralLanguage></NeutralLanguage>
     <PackageProjectUrl>https://github.com/emailhippo/email-verify-api-v3-client-wrapper</PackageProjectUrl>
     <PackageIconUrl>https://s3.amazonaws.com/emailhippo/bizbranding/co.logos/eh1-128x128.png</PackageIconUrl>
-    <Copyright>(c) 2017, Email Hippo Ltd</Copyright>
+    <Copyright>(c) 2018, Email Hippo Ltd</Copyright>
     <Authors>Email Hippo Ltd</Authors>
     <PackageTags>Email Validation Verification API</PackageTags>
     <RepositoryUrl>https://github.com/emailhippo/email-verify-api-v3-client-wrapper</RepositoryUrl>
@@ -14,7 +14,7 @@
     <Company>EmailHippo</Company>
     <Product>EmailVerifification API (v3)</Product>
     <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
-    <PackageReleaseNotes>Updated to .net Standard 2.0.</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated packages.</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <Description>Version 3 client library package for email verification service entities powered by emailhippo.com.
 
@@ -36,9 +36,9 @@ Find out more about enterprise grade email address validation and get a free tri
   </ItemGroup>
   
   <ItemGroup>
-    <PackageReference Include="JetBrains.Annotations" Version="11.0.0" />
+    <PackageReference Include="JetBrains.Annotations" Version="11.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
-    <PackageReference Include="protobuf-net" Version="2.3.2" />
+    <PackageReference Include="protobuf-net" Version="2.3.6" />
     <PackageReference Include="stylecop.analyzers" Version="1.0.2">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
